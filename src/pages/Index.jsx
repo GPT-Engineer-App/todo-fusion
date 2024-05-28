@@ -33,7 +33,7 @@ const Index = () => {
       <VStack spacing={4} width="100%">
         <HStack width="100%">
           <Input placeholder="Add a new task" value={inputValue} onChange={(e) => setInputValue(e.target.value)} />
-          <Button onClick={addTodo} colorScheme="teal">
+          <Button onClick={addTodo} colorScheme="teal" size="lg">
             Add
           </Button>
         </HStack>
